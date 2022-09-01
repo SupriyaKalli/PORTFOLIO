@@ -15,9 +15,12 @@
 	                box-sizing: border-box;
 	            }
 			body {
-				width:100%;
-	                height: 100%;
-  background-image: url('Images/photo1.JPG');
+			
+              background-image: url('Images/photo1.JPG');
+				<picture>
+                <source media="(min-width: 650px)" srcset="Images/photo1.JPG">
+                <img src="Images/photo1.JPG">
+               </picture>
 }
 	            body{
 	                width:100%;
@@ -200,11 +203,11 @@
 	            <ul>
                <div class="gallery">
 	            <h2 class="header">GALLERY</h2>
-	            <div class="Images">
-	                <img src="./Images/photo1.JPG"/>
-	                <img src="./Images/photo2.JPG"/>
-	                <img src="./Images/photo3.JPG"/>
-	                <img src="./Images/photo4.JPG"/>
+	            <div class="images">
+	                <img src="Images/photo1.JPG">
+	                <img src="Images/photo2.JPG">
+	                <img src="Images/photo3.JPG">
+	                <img src="Images/photo4.JPG">
 	            </div>
 	        </div>
 	        <div class="cover-letter-2">
